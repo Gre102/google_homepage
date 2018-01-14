@@ -1,0 +1,15 @@
+.nav_bar{
+    text-align: right;
+    word-spacing:5px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+.search{
+    position:fixed;
+    margin: auto;
+    padding-left: 40%;   
+    top: 100px;
+    display:block;
+
+
+}
