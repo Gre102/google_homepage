@@ -19,6 +19,7 @@
 .search{
     display:block;    
     margin: 173px;
+ 
 }
 .search_bar{
     margin:auto;
@@ -32,8 +33,6 @@
 
 form{
      display:inline-block;
-    
-  
 }   
 input{
      width: 375px;
@@ -54,4 +53,24 @@ input{
 }
 #talk{
     height:55px;
+}
+.buttons{
+    margin: 10px auto;
+    width:230px;
+    height:92px;
+    text-align: center;
+    padding-top: 18px;
+}
+#bl{
+
+    position: relative;
+    width: 100px;    
+    float: right;
+    border-radius: 0px;
+}
+#br{
+   
+    position: relative;
+    width: 100px;
+    border-radius: 0px;    
 }
