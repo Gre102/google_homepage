@@ -1,9 +1,34 @@
 .nav_bar{
     text-align: right;
- 
     word-spacing:5px;
     font-family: Arial, sans-serif;
     font-size: 13px;
+    padding-top: 13px;
+    padding-right:16px;
+}
+.nav_bar a{
+    text-decoration: none;
+    color:rgba(0,0,0,0.87);
+    
+}
+a:hover {
+    text-decoration: underline;
+}
+.apps{
+    position:relative;
+    height:15px;
+    padding-left: 5px;
+    opacity: .6;
+}
+.apps:hover{
+    opacity:1;
+}
+.user_icon{
+    position:relative;
+    top:8px;
+    border-radius: 100%;
+    margin-left: 15px;
+
 }
 
 #img_google{
@@ -40,15 +65,16 @@ input{
      border: solid 0px rgb(255, 255, 255);
      border-radius: 6px;
      margin-left:3px;
-     position: fixed;
+     position: relative;
+     top:-4px;
 }
 
 .icon{
     position: relative;
-    top:1px;
-    height:30;
+    top:2px;
+    height:25;
     z-index: 8;
-    left:400px;
+    left:39px;
     padding-top: 0px; 
 }
 #talk{
@@ -64,13 +90,30 @@ input{
 #bl{
 
     position: relative;
-    width: 100px;    
+    width: 110px;    
     float: right;
     border-radius: 0px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
 }
 #br{
    
     position: relative;
-    width: 100px;
-    border-radius: 0px;    
+    width: 110px;
+    border-radius: 0px;   
+    background-color: #f2f2f2;  
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold; 
 }
+
