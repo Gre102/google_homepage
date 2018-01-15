@@ -116,4 +116,31 @@ input{
     font-size: 13px;
     font-weight: bold; 
 }
+footer{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+.country{
+    margin-left: 2rem;
+    margin-top:10px;
+    margin-bottom: 20px;
+    color: rgba(0,0,0,.54);
+    
+}
+.option{
+    border-top: 1px solid #e4e4e4;
+    padding-top:2rem;
+}
+
+.option a{
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+    margin:2rem;
+}
 
